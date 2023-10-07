@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.92b37810.css",
+    "main.js": "/static/js/main.d04412d2.js",
+    "static/js/787.5254c7bc.chunk.js": "/static/js/787.5254c7bc.chunk.js",
+    "static/media/pro5.gif": "/static/media/pro5.9530d0de38533bc6f43b.gif",
+    "static/media/pro2.png": "/static/media/pro2.0ccebe42fd2a1cff2779.png",
+    "static/media/pro1.png": "/static/media/pro1.f6db766e4dfb9790c5d9.png",
+    "static/media/avatar.png": "/static/media/avatar.252c22e54c9be74400f0.png",
+    "static/media/pro4.png": "/static/media/pro4.3d253e619f9e67dce676.png",
+    "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
+    "static/media/Poppins-Bold.ttf": "/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
+    "static/media/gssoc.png": "/static/media/gssoc.df05199fd4cb8d51fa02.png",
+    "static/media/msilogo.png": "/static/media/msilogo.bcbe7a6a3840f239d7f2.png",
+    "static/media/tp.jpg": "/static/media/tp.38b916ce308aaff54d47.jpg",
+    "static/media/programming.svg": "/static/media/programming.2a8bfe8863b55a493f970f90f2a0b5ec.svg",
+    "static/media/pro3.png": "/static/media/pro3.95f0ab3875e85386f950.png",
+    "static/media/guvi.png": "/static/media/guvi.49dd6a02f4196a282242.png",
+    "static/media/appdev.svg": "/static/media/appdev.237b91f2057505cdb614c2d937670d9a.svg",
+    "static/media/writer.svg": "/static/media/writer.3816869e6b75401509f192bf6e2e508e.svg",
+    "static/media/aws-icon.svg": "/static/media/aws-icon.667be7ef0343e66df45982cd936fac94.svg",
+    "index.html": "/index.html",
+    "main.92b37810.css.map": "/static/css/main.92b37810.css.map",
+    "main.d04412d2.js.map": "/static/js/main.d04412d2.js.map",
+    "787.5254c7bc.chunk.js.map": "/static/js/787.5254c7bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92b37810.css",
+    "static/js/main.d04412d2.js"
+  ]
+}

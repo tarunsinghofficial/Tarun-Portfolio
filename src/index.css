@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --light-background: #fff;
+  --dark-background: #7e5bef;
+}
+
+html {
+  --background: var(--light-background);
+}
+
+html.dark {
+  --background: var(--dark-background);
+}
+
+@font-face {
+  font-family: "PoppinsRegular";
+  src: local("PoppinsRegular"),
+   url("./fonts/Poppins-Regular.ttf") format("truetype");
+}
+  
+@font-face {
+  font-family: "PoppinsBold";
+  src: local("PoppinsBold"),
+   url("./fonts/Poppins-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PoppinsSemiBold";
+  src: local("PoppinsSemiBold"),
+   url("./fonts/Poppins-SemiBold.ttf") format("truetype");
+}
+
+@keyframes bg-change {
+  0% {
+    @apply bg-emerald-400;
+  }
+  20% {
+    @apply bg-blue;
+  }
+  40% {
+    @apply bg-purple;
+  }
+  60% {
+    @apply bg-orange;
+  }
+  80% {
+    @apply bg-red-400;
+  }
+  100% {
+    @apply bg-pink;
+  }
+}
+
+.bg-tint {
+  animation: bg-change 20s ease-in-out infinite;
+}
