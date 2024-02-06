@@ -4,7 +4,7 @@
 
 :root {
   --light-background: #fff;
-  --dark-background: #7e5bef;
+  --dark-background: #17232f;
 }
 
 html {
@@ -18,19 +18,18 @@ html.dark {
 @font-face {
   font-family: "PoppinsRegular";
   src: local("PoppinsRegular"),
-   url("./fonts/Poppins-Regular.ttf") format("truetype");
+    url("./fonts/Poppins-Regular.ttf") format("truetype");
 }
-  
+
 @font-face {
   font-family: "PoppinsBold";
-  src: local("PoppinsBold"),
-   url("./fonts/Poppins-Bold.ttf") format("truetype");
+  src: local("PoppinsBold"), url("./fonts/Poppins-Bold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "PoppinsSemiBold";
   src: local("PoppinsSemiBold"),
-   url("./fonts/Poppins-SemiBold.ttf") format("truetype");
+    url("./fonts/Poppins-SemiBold.ttf") format("truetype");
 }
 
 @keyframes bg-change {
@@ -56,4 +55,11 @@ html.dark {
 
 .bg-tint {
   animation: bg-change 20s ease-in-out infinite;
+}
+
+#line-clamp-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
 }

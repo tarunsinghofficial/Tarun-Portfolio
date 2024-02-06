@@ -7,14 +7,14 @@ function Contact() {
       <Helmet>
         <title>Contact | Tarun Singh</title>
       </Helmet>
-      <div className="bg-white dark:bg-black" data-aos="fade-right"
+      <div className="bg-white dark:bg-dark" data-aos="fade-right"
               data-aos-delay="50"
               data-aos-duration="1000"
               data-aos-once="false">
         <div className="flex items-center justify-center">
           <h1 className="text-3xl lg:text-6xl md:text-4xl font-bold text-blue">Contact me</h1>
         </div>
-        <section class="bg-white dark:bg-black">
+        <section class="bg-white dark:bg-dark">
           <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
             <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
               Have a Query? Contact me now.

@@ -24,7 +24,8 @@ module.exports = {
         'orange': '#ff7849',
         'green': '#13ce66',
         'yellow': '#ffc82c',
-        'bgGray': '#f8f8f8'
+        'bgGray': '#f8f8f8',
+        'dark': '#17232f'
       },
       dropShadow: {
         'xl': '0 7px 7px rgba(31, 182, 255, 1)',

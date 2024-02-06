@@ -14,7 +14,6 @@ import Youtube from "../Assets/youtube.svg";
 import GFG from "../Assets/gfg.png";
 import CM from "../Assets/cm.jpg";
 import YoutubeLogo from "../Assets/youtubeLogo.png";
-import Footer from "../Components/Footer";
 
 function Home() {
   return (
@@ -22,42 +21,74 @@ function Home() {
       <Helmet>
         <title>Home | Tarun Singh</title>
       </Helmet>
-      <div class="bg-white dark:bg-black px-8">
+      <div class="bg-white dark:bg-dark container mx-auto">
         {/* Hero */}
-        <section className="mx-auto container relative z-0 px-1 xl:px-0 md:pt-4">
-          <div className="flex flex-col md:flex-row xl:my-1 gap-10">
-            {/* Hero content */}
+        <section className="relative z-0 max-w-full">
+          <div className="flex-col md:flex-row xl:my-1 flex items-center ">
             <div
-              data-aos="fade-right"
-              data-aos-duration="400"
-              data-aos-offset="400"
-              data-aos-delay="300"
-              data-aos-easing="ease-in-sine"
-              className=" md:w-4/5 xl:w-8/12 md:pt-20 sm:mt-10"
+              className=" md:w-4/5 xl:w-8/12 md:pt-20 sm:mt-10 space-y-5"
             >
               <h1 className="font-pop-bol text-4xl lg:text-6xl xl:text-8xl font-extrabold dark:text-white text-gray-900 text-center md:text-left max-w-5xl">
-                Hi👋, <br /> I'm Tarun Singh{" "}
+                <span className="text-4xl font-bold">Hi👋 I'm,</span>
+                <br /><span>Tarun</span> Singh
               </h1>
-              <h2 className="font-pop-sem-bol md:w-8/12 py-4 text-center md:text-left md:py-8 dark:text-gray-400 text-gray-700 text-lg md:text-2xl lg:text-2xl">
+              <h2 className="font-pop-sem-bol md:w-8/12 text-center md:text-left text-blue text-md">
                 Frontend Developer, Technical Writer/Reviewer, and YouTuber
               </h2>
-              <Link to="/about" className="w-full flex text-left justify-center md:block">
-                <button className="bg-blue py-3 px-10 lg:py-4 lg:px-15 rounded-full">
-                  <h3 className="text-xl text-white font-bold uppercase">
-                    About
-                  </h3>
-                </button>
-              </Link>
+              <h2 className="md:w-8/12 text-justify md:text-left dark:text-gray-400 text-gray-700 text-lg">
+                Currently pursuing my MCA in Software Engineering. Passionate about technology and its ever-evolving landscape,
+                I aspire to be a proficient software developer while nurturing my love for writing.
+                With over 3 years of experience in technical writing, I enjoy sharing my knowledge
+                through technical blogs. Actively contributing to Open Source.
+              </h2>
+              <div className="items-center block md:items-left md:flex lg:items-left lg:flex">
+                <Link to="/about" className="bg-blue py-3 px-10 lg:py-4 lg:px-15 rounded-full w-auto text-white">
+                  About
+                </Link>
+              </div>
             </div>
-            {/* Animation glow effect: ref to index.css for css styles */}
-            <div className="absolute sm:h-[28em] sm:w-[28em] w-[15em] h-[15em] rounded-xl bg-blue-400 top-[30em] md:top-[10em] lg:top-[10em] -z-50 left-[72%] -ml-16 md:ml-24 lg:ml-24 -translate-x-1/2 blur-3xl opacity-40 dark:opacity-70 animate-pulse bg-tint"></div>
-            {/* Avatar here */}
-            <div className="md:w-3/5 sm:w-4/5 xl:w-8/12 md:h-2/4 lg:-mr-96 m-auto flex items-center overflow-hidden">
-              <img
-                className="md:absolute md:w-2/4 lg:w-1/3 md:-ml-10 drop-shadow-lg shadow-black"
-                src={avatar}
-                alt="Tarun Avatar"
-              />
+            <div className="absolute lg:h-[28em] lg:w-[28em] w-[15em] h-[15em] rounded-xl bg-blue-400 top-[23em] md:top-[10em] lg:top-[10em] -z-50 left-[70%] -ml-20 md:ml-24 lg:ml-24 -translate-x-1/2 blur-3xl opacity-40 dark:opacity-70 animate-pulse bg-tint" />
+            <div className="flex items-center justify-center">
+              <svg
+                id="sw-js-blob-svg"
+                viewBox="0 0 100 100"
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-[23em] h-[23em] md:w-[30em] md:h-[30em] lg:w-[40em] lg:h-[40em]" // Adjust width and height as needed
+              >
+                <defs>
+                  <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
+                    <stop id="stop1" stopColor="rgba(83.67, 136.184, 224.335, 1)" offset="0%" />
+                    <stop id="stop2" stopColor="rgba(156.193, 203.058, 242.549, 1)" offset="100%" />
+                  </linearGradient>
+                  {/* Define clipping path */}
+                  <clipPath id="avatarClip">
+                    <path
+                      d="M23.6,-27.9C30.9,-22,37.4,-14.9,38.4,-7C39.5,0.8,35.2,9.3,30.7,18.2C26.1,27,21.3,36.2,14,39.2C6.7,42.1,-3.1,38.9,-12.2,35C-21.4,31.1,-29.8,26.5,-33.3,19.6C-36.8,12.7,-35.5,3.3,-34,-6.2C-32.6,-15.7,-31,-25.3,-25.3,-31.5C-19.6,-37.6,-9.8,-40.2,-0.8,-39.2C8.2,-38.3,16.3,-33.7,23.6,-27.9Z"
+                      transform="translate(50 50)"
+                    />
+                  </clipPath>
+                </defs>
+                <path
+                  fill="url(#sw-gradient)"
+                  d="M23.6,-27.9C30.9,-22,37.4,-14.9,38.4,-7C39.5,0.8,35.2,9.3,30.7,18.2C26.1,27,21.3,36.2,14,39.2C6.7,42.1,-3.1,38.9,-12.2,35C-21.4,31.1,-29.8,26.5,-33.3,19.6C-36.8,12.7,-35.5,3.3,-34,-6.2C-32.6,-15.7,-31,-25.3,-25.3,-31.5C-19.6,-37.6,-9.8,-40.2,-0.8,-39.2C8.2,-38.3,16.3,-33.7,23.6,-27.9Z"
+                  width="100%"
+                  height="100%"
+                  transform="translate(50 50)"
+                  strokeWidth="0"
+                  style={{ transition: "all 0.3s ease 0s" }}
+                  stroke="url(#sw-gradient)"
+                />
+                {/* Image with clipping path */}
+                <image
+                  href="https://tarunportfolio.vercel.app/static/media/avatar.fe1e97d8ce8d9dfe2f4f.png"
+                  x="0" // Adjust x position to center the image within the blob
+                  y="15" // Adjust y position to center the image within the blob
+                  width="100" // Adjust width
+                  height="100" // Adjust height
+                  clipPath="url(#avatarClip)" // Apply the clipPath to the image
+                />
+              </svg>
+
             </div>
           </div>
         </section>

@@ -5,12 +5,12 @@ function ProjectItem({project, title, link}) {
     <>
       <div
         href="##"
-        className="bg-white dark:bg-[#111111] border border-gray-800 overflow-hidden w-80 h-72 md:w-96 md:h-72 lg:w-96 lg:h-72 rounded-md items-center justify-center"
+        className="bg-white dark:bg-dark border border-gray-400 overflow-hidden w-80 h-72 md:w-96 md:h-72 lg:w-[30em] lg:h-[20em] rounded-md items-center justify-center"
       >
         <div className="w-full bg-cover overflow-hidden">
-          <img src={project} alt="" className="w-full h-56 transform transition duration-1000 hover:scale-125" />
+          <img src={project} alt="" className="w-full h-[13em] md:h-[13em] lg:h-[15em] transform transition duration-1000 hover:scale-125" />
         </div>
-        <div class="flex mt-4 justify-between px-4">
+        <div class="flex mt-4 justify-between items-center px-4">
           <h3 className="font-bold text-md dark:text-white">
             {title}
           </h3>

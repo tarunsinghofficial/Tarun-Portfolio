@@ -9,6 +9,7 @@ import Contact from "./Pages/Contact";
 import Resume from "./Pages/Resume";
 import Research from "./Pages/Research";
 import Experience from "./Pages/Experience";
+import Blog from "./Pages/Blog";
 import Footer from "./Components/Footer";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/research" element={<Research />} />
+          <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         </div>

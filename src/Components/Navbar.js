@@ -8,7 +8,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className="w-full fixed top-0 z-50 p-1 bg-white dark:bg-black border-b backdrop-blur-md bg-clip-padding backdrop-filter bg-opacity-80 dark:bg-opacity-50 border border-gray-100 dark:border-black">
+      <nav className="w-full fixed top-0 z-50 p-1 bg-white dark:bg-dark border-b backdrop-blur-md bg-clip-padding backdrop-filter bg-opacity-80 dark:bg-opacity-50 border border-gray-100 dark:border-dark">
         <div className="relative justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -73,6 +73,9 @@ function Navbar() {
                 </li>
                 <li>
                   <Link to="/research">Research</Link>
+                </li>
+                <li>
+                  <Link to="/blog">Blog</Link>
                 </li>
                 <li>
                   <Link to="/resume">CV</Link>

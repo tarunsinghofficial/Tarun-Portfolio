@@ -8,6 +8,7 @@ import gssoc from "../Assets/gssoc.png";
 import guvi from "../Assets/guvi.png";
 import tp from "../Assets/tp.jpg";
 import cab from "../Assets/cab.png";
+import acm from "../Assets/acmlogo.jpg";
 
 function Experience() {
 
@@ -16,7 +17,7 @@ function Experience() {
       <Helmet>
         <title>Experience | Tarun Singh</title>
       </Helmet>
-      <div className="bg-white dark:bg-black">
+      <div className="bg-white dark:bg-dark">
         <div className="flex items-center justify-center" data-aos="fade-right">
           <h1 className="text-3xl lg:text-6xl md:text-4xl font-bold text-blue">Experience</h1>
         </div>
@@ -28,26 +29,47 @@ function Experience() {
           data-aos-once="false"
         >
           <ListItem
+            logo={acm}
+            title="Full Stack Developer"
+            company="GGSIP USS ACM Student Chapter"
+            date="Dec 2023 - Present"
+            description="Currently developing and maintaining the front-end and
+            back-end of USS ACM website utilizing technologies such as
+            PHP, HTML, CSS, JavaScript, and Git.
+            Collaborated with team members to design and implement
+            UI, ensuring a seamless and responsive user experience."
+            location="Part-time (Hybrid)"
+          />
+          <ListItem
+            logo="https://img.freepik.com/premium-vector/red-youtube-logo-social-media-logo_197792-1803.jpg"
+            title="YouTuber"
+            company="YouTube"
+            date="March 2016 - Present"
+            description="I create Educational, How to, Tech, Unboxing related videos and have over 1.5K Subscribers. Visit my channel here- youtube.com/c/TarunSingh24"
+            location="Part-time (Remote)"
+          />
+          {/* <ListItem
             logo={cab}
             title="Content Advisory Board Member"
             company="LogRocket"
             date="Aug 2023 - Present"
             description="As CAB member, I review new blog posts and topics, as well as help guide them  to produce the tutorials, tech posts, meetups, and podcasts that LogRocket readers love."
             location="Freelance (Remote)"
-          />
+          /> */}
           <ListItem
             logo={gfg}
             title="Technical Reviewer"
             company="GeeksforGeeks"
             date="Feb 2023 - Present"
-            description="As a reviewer at GeeksforGeeks, my task is to review the technical articles of other freelancers, technical writers, etc. As far now, I have reviewed 20+ articles related to React, HTML/CSS, JavaScript, Bootstrap, Tailwind, React MUI, etc."
+            description="As a reviewer at GeeksforGeeks, my task is to review the technical articles of other freelancers, technical writers, etc. 
+            As far now, I have reviewed 20+ articles related to React, HTML/CSS, JavaScript, Bootstrap, Tailwind, React MUI, etc."
             location="Freelance (Remote)"
           />
           <ListItem
             logo={tp}
             title="Technical Writer"
             company="Tutorialspoint"
-            date="Jan 2023 - Present"
+            date="Jan 2023 - Aug 2023"
             description="As a freelancer at Tutorialspoint, I write technical content for the other fellow readers on various tech topics including React, HTML/CSS, JavaScript, Bootstrap, Tailwind, React MUI, etc."
             location="Freelance (Remote)"
           />
@@ -60,14 +82,14 @@ function Experience() {
             location="Full Time (Remote)"
           />
 
-          <ListItem
+          {/* <ListItem
             logo={cm}
             title="Technical Writer"
             company="Coding Minutes"
             date="Sep 2022 - Dec 2022"
             description="Coding Minutes was started with a mission to provide affordable & high quality education for everyone. With Udemy as our technology partner, we wish to bring all our courses with top-notch content to our students at pocket friendly prices with lifetime access."
             location="Internship (Remote)"
-          />
+          /> */}
           <ListItem
             logo={gssoc}
             title="Mentor"

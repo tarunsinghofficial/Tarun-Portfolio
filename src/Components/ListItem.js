@@ -3,7 +3,7 @@ import React from "react";
 function ListItem({logo, title, company, date, location, description}) {
   return (
     <>
-      <div className="flex flex-col md:flex-row items-center bg-white dark:bg-[#111111] p-2 border border-gray-800 rounded-lg gap-4 my-6 transform transition duration-1000 hover:scale-95">
+      <div className="flex flex-col md:flex-row items-center bg-white dark:bg-dark p-2 border border-gray-400 rounded-lg gap-4 my-6 transform transition duration-1000 hover:scale-95">
         {/* Logo here */}
         <div className="md:w-1/12 w-44 flex flex-col items-center">
           <img src={logo} alt="logo" className="text-center w-24 h-24 rounded-full" />

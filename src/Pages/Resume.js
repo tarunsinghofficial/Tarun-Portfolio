@@ -8,7 +8,7 @@ function Resume() {
       <Helmet>
         <title>CV | Tarun Singh</title>
       </Helmet>
-      <div className="bg-white dark:bg-black h-screen">
+      <div className="bg-white dark:bg-dark h-screen">
         <div className="flex items-center justify-center">
           <h1 data-aos="fade-right" className="text-3xl lg:text-6xl md:text-4xl font-bold text-blue">
             CV/Resume
@@ -25,11 +25,11 @@ function Resume() {
           <iframe
             className="w-full h-full justify-center"
             title="Resume"
-            src="https://drive.google.com/file/d/13RgfWDdCz_CXZrA75zhl1ufQkD7ilIK8/preview"
+            src="https://drive.google.com/file/d/1mh4TYaJVfoX1sAV9Wyits-XpehOeHZM4/view?usp=sharing"
             allow="autoplay"
           ></iframe>
         </div>
-        <a href="https://drive.google.com/file/d/13RgfWDdCz_CXZrA75zhl1ufQkD7ilIK8&export=download" className="flex py-10 items-center justify-center">
+        <a href="https://drive.google.com/file/d/1mh4TYaJVfoX1sAV9Wyits-XpehOeHZM4&export=download" className="flex py-10 items-center justify-center">
         <button className="bg-blue text-white w-44 h-12 rounded-full dark:hover:drop-shadow-xl text-center">
           Download
         </button>

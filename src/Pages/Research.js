@@ -49,7 +49,7 @@ function Research() {
     };
 
     return (
-      <div className="mb-8 w-full h-full border border-gray-800 rounded-lg p-4 dark:bg-[#111111]">
+      <div className="mb-8 w-full h-full border border-gray-400 rounded-lg p-4 dark:bg-dark">
         <a
           href={link}
           onClick={handleView}
@@ -80,7 +80,7 @@ function Research() {
       <Helmet>
         <title>Research | Tarun Singh</title>
       </Helmet>
-      <div className="bg-white dark:bg-black ">
+      <div className="bg-white dark:bg-dark ">
         <div className="flex items-center justify-center">
           <h1
             data-aos="fade-right"
