@@ -39,7 +39,7 @@ const projects = [
   {
     item: 1,
     title: "QR Code Generator (Next.js)",
-    img: pro6,
+    img: pro8,
     source: "https://github.com/tarunsinghofficial/Qr-Code-Generator-NextJS"
   },
   {
@@ -51,7 +51,7 @@ const projects = [
   {
     item: 3,
     title: "Movie Discovery App (Next.js, Tailwind)",
-    img: pro8,
+    img: pro6,
     source: "https://github.com/tarunsinghofficial/NextJS-Movie"
   }
 ]

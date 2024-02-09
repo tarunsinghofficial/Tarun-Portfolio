@@ -21,7 +21,7 @@ function Home() {
       <Helmet>
         <title>Home | Tarun Singh</title>
       </Helmet>
-      <div class="bg-white dark:bg-dark container mx-auto">
+      <div class="bg-white dark:bg-dark container mx-auto p-4">
         {/* Hero */}
         <section className="relative z-0 max-w-full">
           <div className="flex-col md:flex-row xl:my-1 flex items-center ">
