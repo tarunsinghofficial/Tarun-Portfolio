@@ -12,7 +12,7 @@ function Contact() {
               data-aos-duration="1000"
               data-aos-once="false">
         <div className="flex items-center justify-center">
-          <h1 className="text-3xl lg:text-6xl md:text-4xl font-bold text-blue">Contact me</h1>
+          <h1 className="text-4xl font-bold text-blue">Contact me</h1>
         </div>
         <section class="bg-white dark:bg-dark">
           <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">

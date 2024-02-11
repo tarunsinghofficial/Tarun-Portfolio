@@ -13,7 +13,7 @@ function Blog({ url, imgUrl, title, description, category }) {
                 <p className="text-blue text-lg font-semibold">{category}</p>
                 <h2 className="text-xl font-bold text-black dark:text-white">{title}
                 </h2>
-                <p className="text-gray-300" id="line-clamp-3">{description}</p>
+                <p className="dark:text-gray-400 text-gray-700" id="line-clamp-3">{description}</p>
             </div>
         </a>
     )

@@ -19,7 +19,7 @@ function Experience() {
       </Helmet>
       <div className="bg-white dark:bg-dark">
         <div className="flex items-center justify-center" data-aos="fade-right">
-          <h1 className="text-3xl lg:text-6xl md:text-4xl font-bold text-blue">Experience</h1>
+          <h1 className="text-4xl font-bold text-blue">Experience</h1>
         </div>
         <div
           className="mt-10 p-4 container mx-auto text-xl relative"

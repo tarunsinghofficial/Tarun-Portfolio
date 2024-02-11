@@ -84,7 +84,7 @@ function Research() {
         <div className="flex items-center justify-center">
           <h1
             data-aos="fade-right"
-            className="text-3xl lg:text-6xl md:text-4xl font-bold text-blue"
+            className="text-4xl font-bold text-blue"
           >
             Research Publications
           </h1>

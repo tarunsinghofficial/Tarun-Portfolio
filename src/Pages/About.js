@@ -11,12 +11,12 @@ function About() {
       </Helmet>
       <div className="bg-white dark:bg-dark">
         <div className="flex items-center justify-center">
-          <h1 className="text-3xl lg:text-6xl md:text-4xl font-bold text-blue">
+          <h1 className="text-4xl font-bold text-blue">
             About Me
           </h1>
         </div>
         <div className="container mx-auto px-4 md:px-2 lg:px-4 mt-10">
-          <p className="text-lg md:text-2xl lg:text-3xl dark:text-white">
+          <p className="text-lg dark:text-white">
             I'm a Software Developer, Technical Writer, YouTuber, and a
             passionate learner. I am currently writing various Technical
             Articles at GeeksforGeeks. As a CS student, I have been working on
@@ -27,7 +27,7 @@ function About() {
             other open-source contributors with their queries.
           </p>
         </div>
-        <h2 className="dark:text-white container mx-auto sm:px-2 md:px-2 text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mt-10">
+        <h2 className="container mx-auto sm:px-2 md:px-2 text-4xl font-bold text-blue mt-10">
           Tech Stack
         </h2>
         <section className="container mx-auto px-4 md:px-2 lg:px-4 max-h-max mt-10">
@@ -261,12 +261,12 @@ function About() {
             </div>
           </div>
         </section>
-        <h2 className="dark:text-white container mx-auto sm:px-2 md:px-2 text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mt-12">
+        <h2 className="container mx-auto sm:px-2 md:px-2 text-4xl font-bold text-blue mt-12">
           Education
         </h2>
         <section className="container mx-auto sm:px-2 md:px-2 mt-10">
           <div className="flex flex-col md:flex-row sm:gap-8 items-center gap-8 px-10 justify-between">
-            <div className="w-48 h-48 p-4 overflow-hidden drop-shadow-md dark:drop-shadow-xl rounded-full bg-white dark:bg-gray-100">
+            <div className="w-48 h-48 p-4 overflow-hidden drop-shadow-md dark:drop-shadow-xl rounded-full bg-white">
               <img src={usict} alt="USICT" />
             </div>
             <div className="w-full sm:w-fit md:w-9/12 text-left drop-shadow-md dark:drop-shadow-xl bg-white dark:bg-gray-200 p-4 rounded-xl">

@@ -99,11 +99,17 @@ function BlogPage() {
             <Helmet>
                 <title>Blog | Tarun Singh</title>
             </Helmet>
-            <div className="bg-white dark:bg-dark h-screen">
+            <div className="bg-white dark:bg-dark">
                 <div className="flex items-center justify-center">
-                    <h1 data-aos="fade-right" className="text-3xl lg:text-6xl md:text-4xl font-bold text-blue">
-                        Blogs/Articles
-                    </h1>
+                    <div className="container mx-auto">
+
+                        <h1 data-aos="fade-right" className="text-4xl font-bold text-blue">
+                            Blogs/Articles
+                        </h1>
+                        <p className="mt-2 dark:text-gray-400 text-gray-700 text-center text-xl">
+                            Checkout my latest top content published on internet.
+                        </p>
+                    </div>
                 </div>
                 <section className="container mx-auto block items-center space-y-5">
                     <MainBlog />
@@ -113,14 +119,19 @@ function BlogPage() {
                         ))}
                     </div>
                     <div className="space-y-10">
-                        <h1 data-aos="fade-right" className="text-4xl font-bold text-blue">
-                            Find my articles on
-                        </h1>
+                        <div className="container mx-auto">
+                            <h1 data-aos="fade-right" className="text-4xl font-bold text-blue">
+                                Find my articles on
+                            </h1>
+                            <p className="dark:text-gray-400 text-gray-700 text-center text-xl">
+                                My clients for which I've worked for!
+                            </p>
+                        </div>
                         <div className="flex flex-wrap gap-5">
-                        {portfolio.map((data, key) => (
-                            <Blog title={data.title} description={data.description} url={data.url} imgUrl={data.imgUrl} category={data.category} />
-                        ))}
-                    </div>
+                            {portfolio.map((data, key) => (
+                                <Blog title={data.title} description={data.description} url={data.url} imgUrl={data.imgUrl} category={data.category} />
+                            ))}
+                        </div>
                     </div>
                 </section>
             </div>
